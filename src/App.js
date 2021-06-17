@@ -6,10 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ReactAudioPlayer src="../public/music/follow-your-arrow.mp3" autoPlay controls />
         <a
           className="App-link"
           href="https://reactjs.org"
